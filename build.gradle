@@ -10,17 +10,16 @@ repositories {
 
 dependencies {
     implementation 'io.quarkus:quarkus-resteasy-jackson'
-
     implementation 'io.quarkus:quarkus-smallrye-reactive-messaging-kafka'
     implementation enforcedPlatform("${quarkusPlatformGroupId}:${quarkusPlatformArtifactId}:${quarkusPlatformVersion}")
-    implementation 'io.quarkus:quarkus-hibernate-orm'
+//    implementation 'io.quarkus:quarkus-hibernate-orm'
     implementation 'io.quarkus:quarkus-resteasy'
     implementation 'io.quarkus:quarkus-resteasy-common'
     implementation 'io.quarkus:quarkus-spring-di'
-    implementation 'com.hazelcast:quarkus-hazelcast-client'
-    implementation 'io.quarkus:quarkus-jdbc-postgresql'
-    implementation 'io.quarkus:quarkus-spring-boot-properties'
-    implementation 'io.quarkus:quarkus-arc'
+//    implementation 'com.hazelcast:quarkus-hazelcast-client'
+//    implementation 'io.quarkus:quarkus-jdbc-postgresql'
+//    implementation 'io.quarkus:quarkus-spring-boot-properties'
+//    implementation 'io.quarkus:quarkus-arc'
     implementation 'org.jboss.slf4j:slf4j-jboss-logging'
     compile 'commons-io:commons-io:2.8.0'
     compile 'org.apache.tika:tika-core:1.24.1'
